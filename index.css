@@ -75,7 +75,7 @@ footer .media-link {
 }
 
 main > img {
-  width: 300px;
+  width: 450px;
   float: right;
   margin: 10px 0 10px 10px;
 }
@@ -94,6 +94,7 @@ section {
   border-top: 1px solid #bbb;
   font-size: 16px;
 }
+
 
 @media screen and (max-width: 625px) { main {
     display: flex;
