@@ -112,4 +112,13 @@ footer a {
   #form {
     margin: 0;
   }
+  
+  .about-section img {
+    float: none !important;
+    display: block;
+    max-width: 100%;
+    width: 240px;
+    height: auto;
+    margin: 0 auto 1em;
+  }
 }

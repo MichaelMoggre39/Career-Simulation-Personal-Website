@@ -105,6 +105,16 @@ section {
 
   main .quote {
     margin-top: 0;
+    font-size: 36px;
+  }
+  
+  main > img {
+    float: none;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
   }
 footer a {
     margin: 0;
