@@ -43,18 +43,9 @@ main {
   min-height: 100vh;
   padding: 85px 24px 96px;
   box-shadow: 0 0 12px -2px black;
-  color: aliceblue;
+  color: rgb(251, 242, 122);
   font-family:Arial, Helvetica, sans-serif;
   font-size: 25px;
-}
-
-/* Contact page header to match site accents */
-#contact-header {
-  font-family: 'Rouge Script', cursive;
-  color: rgb(229, 241, 12);
-  text-shadow: 1px 1px 2px black;
-  text-align: center;
-  margin: 0.5em 0 0.25em;
 }
 
 footer {
@@ -86,46 +77,26 @@ footer .media-link {
 section {
   border-top: 1px solid #bbb;
   font-size: 16px;
-  padding: 1em 0;
 }
 
-main section {
-  width: calc(100% - 6em);
-  background: #ed7373;
-  color: #222;
-  box-shadow: 0 3px 6px -2px #ccc;
-  margin: 2em auto;
-  padding: 1em;
-  border-radius: 8px;
+#about-header {
+  font-weight: 300;
+  font-size: 2rem;
 }
 
-section h2 {
-  margin: 0 0 0.25em;
+.about-section:nth-of-type(2n) > img {
+  float: left;
+  margin: 0 24px 24px 0;
 }
 
-section h3 {
-  margin: 0.75em 0 0.25em;
+.about-section:nth-of-type(2n + 1) > img {
+  float: right;
+  margin: 0 24px 24px 24px;
 }
 
-main a:hover {
-  text-decoration: underline;
+.about-section img {
+  height: 128px;
 }
-main section a {
-  display: inline-block;
-  background-color: #e8d6d6;
-  color: #333;
-  padding: 0.25em 0.6em;
-  margin: 0.25em 0.5em 0;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px -2px #999;
-}
-
-main section a:hover {
-  background-color: #e0caca;
-  text-decoration: none;
-  box-shadow: 0 3px 6px -2px #888;
-}
-
 
 @media screen and (max-width: 625px) { main {
     display: flex;
@@ -133,7 +104,7 @@ main section a:hover {
     align-items: center;
     text-align: center;
   }
-
+  
 footer a {
     margin: 0;
   }

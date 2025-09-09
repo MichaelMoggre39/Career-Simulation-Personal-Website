@@ -74,22 +74,6 @@ footer .media-link {
   border-bottom: 1px solid #c0c0c0;
 }
 
-main > img {
-  width: 450px;
-  float: right;
-  margin: 10px 0 10px 10px;
-}
-
-main .quote {
-  font-family: 'Rouge', cursive;
-  color: rgb(229, 241, 12);
-  font-size: 50px;
-  font-weight: 100;
-  text-shadow: 1px 1px 2px black;
-  text-align:center;
-  margin-top: 4em;
-}
-
 section {
   border-top: 1px solid #bbb;
   font-size: 16px;
@@ -119,10 +103,6 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-
-  main .quote {
-    margin-top: 0;
   }
   
 footer a {
